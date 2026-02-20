@@ -6,10 +6,10 @@ export function PainSection() {
     <section className="overflow-hidden bg-gray-50 px-4 py-14 sm:py-16 md:py-20">
       <div className="mx-auto max-w-3xl text-center">
         <h2 className="mb-2 font-passion text-xl font-bold text-brand-purple sm:text-2xl md:text-4xl">
-          Você se identifica?
+          Você está deixando dinheiro na mesa
         </h2>
         <p className="mb-6 font-baloo text-sm text-gray-500 sm:mb-8 sm:text-base md:text-lg">
-          Se respondeu sim para alguma dessas perguntas, esse curso é para você.
+          Veja se alguma dessas situações é a sua realidade hoje:
         </p>
         <div className="space-y-4">
           {painPoints.map((point, i) => (

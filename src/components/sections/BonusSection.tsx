@@ -9,7 +9,7 @@ export function BonusSection() {
           {bonusText}
         </h2>
         <p className="mb-6 font-baloo text-sm text-gray-500 sm:mb-8 sm:text-base">
-          Bônus exclusivos inclusos na sua inscrição
+          Tudo que você precisa para sair do zero e começar a vender
         </p>
 
         <div className="grid gap-3 sm:grid-cols-3 sm:gap-4">

@@ -12,6 +12,12 @@ export function PricingBox() {
             {pricing.heading}
           </h3>
 
+          <div className="rounded-lg bg-brand-purple/5 p-3">
+            <p className="font-baloo text-sm text-gray-600">
+              5 módulos completos + 3 bônus + acesso vitalício
+            </p>
+          </div>
+
           <CountdownTimer />
 
           <div className="space-y-1">
@@ -33,27 +39,17 @@ export function PricingBox() {
             {pricing.discountPercent}% OFF
           </Badge>
 
-          <div className="rounded-lg bg-brand-purple/5 p-3">
-            <p className="font-baloo text-xs text-gray-500">
-              + Bônus no valor de{" "}
-              <span className="font-bold text-brand-purple">
-                {pricing.bonusTotal}
-              </span>{" "}
-              inclusos gratuitamente
-            </p>
-          </div>
-
           <a
             href={PAYMENT_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="block w-full rounded-2xl bg-gradient-to-r from-brand-purple to-brand-magenta py-4 font-passion text-lg font-bold text-white shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-[0_0_25px_rgba(126,97,204,0.5)]"
           >
-            GARANTIR MINHA VAGA POR R$27,90
+            QUERO CRIAR PEÇAS PROFISSIONAIS
           </a>
 
           <p className="font-baloo text-xs text-gray-400">
-            Pagamento 100% seguro - Acesso imediato
+            Garantia de 7 dias - Acesso imediato - Pagamento seguro
           </p>
         </CardContent>
       </Card>

@@ -7,7 +7,7 @@ export const pricing = {
   discountedPrice: "R$27,90",
   installment: "3x de R$9,96",
   discountPercent: 86,
-  heading: "Só Hoje: 86% OFF + 3 Bônus Grátis",
+  heading: "Comece sua transformação agora",
   bonusTotal: "R$285,00",
 };
 
@@ -58,20 +58,20 @@ export const guaranteeText =
   "Valorizamos muito nossas alunas e sempre nos esforçamos ao máximo para oferecer o melhor. Por isso, não temos registros de pedidos de reembolso. No entanto, se em até 7 dias você não ficar satisfeita com o conteúdo ou se algo não atender às suas expectativas, garantimos a devolução total do valor pago. É só entrar em contato conosco pelo WhatsApp para solicitar o reembolso.";
 
 export const heroText =
-  "Aprenda Crochê e Comece a Faturar em Semanas";
+  "Crie Peças Profissionais de Crochê e Venda Para Quem Quiser";
 
 export const headlineText =
-  "De R$197,90 por apenas R$27,90 — 86% de desconto + 3 bônus grátis no valor de R$285";
+  "Você vai sair do zero, dominar roupas, amigurumis e decoração — e ainda aprender a vender suas peças";
 
 export const headlineOffer =
-  "Essa oferta pode sair do ar a qualquer momento";
+  "Acesso vitalício + 500 receitas + grupo VIP + guia de precificação";
 
 export const subheadlineText = "Assista ao vídeo e veja como funciona";
 
-export const ctaText = "GARANTIR MINHA VAGA POR R$27,90";
-export const ctaSubText = "Acesso imediato + 3 bônus grátis";
+export const ctaText = "QUERO CRIAR PEÇAS PROFISSIONAIS";
+export const ctaSubText = "Acesso imediato a todo o conteúdo";
 
-export const bonusText = "3 bônus grátis no valor de R$285 — só hoje";
+export const bonusText = "Você ainda leva 3 bônus para acelerar seus resultados";
 
 export const testimonialsTitle = "Resultados Reais de Alunas Reais";
 
@@ -100,10 +100,10 @@ export const bonuses = [
 ];
 
 export const painPoints = [
-  "Tentou aprender crochê pelo YouTube mas ficou perdida com vídeos soltos?",
-  "Quer uma renda extra mas não sabe por onde começar?",
-  "Comprou materiais e desistiu porque não tinha um método claro?",
-  "Sonha em criar peças lindas mas acha que não tem talento?",
+  "Enquanto você assiste vídeos soltos no YouTube, outras alunas já estão vendendo suas primeiras peças",
+  "Você tem vontade de criar, mas sem método, cada tentativa vira frustração e material desperdiçado",
+  "Suas amigas elogiam peças de crochê nas redes sociais — e você sabe que poderia ser você criando e vendendo",
+  "A diferença entre quem fatura com crochê e quem desiste é ter um passo a passo profissional",
 ];
 
 export const targetAudience = [
