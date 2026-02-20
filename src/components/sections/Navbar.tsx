@@ -43,7 +43,10 @@ export function Navbar() {
             scrolled ? "text-brand-purple" : "text-white"
           }`}
         >
-          Crochê Pro
+          Crochê Pro{" "}
+          <span className={`font-baloo text-xs font-normal ${scrolled ? "text-gray-400" : "text-white/60"}`}>
+            por Juliana
+          </span>
         </span>
 
         <div className="hidden items-center gap-6 md:flex">

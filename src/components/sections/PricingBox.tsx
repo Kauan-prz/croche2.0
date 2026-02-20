@@ -6,7 +6,7 @@ import { CountdownTimer } from "./CountdownTimer";
 export function PricingBox() {
   return (
     <section className="flex justify-center px-4 py-14 sm:py-16 md:py-20" id="preco">
-      <Card className="w-full max-w-md border-2 border-brand-gold bg-gradient-to-b from-white to-amber-50/30 shadow-[0_0_30px_rgba(201,165,79,0.3)] sm:max-w-lg">
+      <Card className="w-full max-w-md border border-brand-gold/40 bg-white shadow-lg sm:max-w-lg">
         <CardContent className="space-y-5 p-6 text-center sm:p-8 md:p-10">
           <h3 className="font-passion text-xl font-bold text-brand-purple sm:text-2xl md:text-3xl">
             {pricing.heading}

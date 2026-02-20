@@ -16,7 +16,7 @@ export function TestimonialsSection() {
           {testimonialsTitle}
         </h2>
         <p className="mb-6 font-baloo text-sm text-gray-500 sm:mb-8 sm:text-base md:text-lg">
-          Resultados reais de alunas como você
+          Depoimentos verificados de alunas da Juliana
         </p>
         <Carousel
           opts={{

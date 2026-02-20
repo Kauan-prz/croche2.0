@@ -2,13 +2,13 @@ import { headlineText, subheadlineText } from "@/data/content";
 
 export function Headline() {
   return (
-    <section className="mx-auto max-w-3xl px-4 py-10 text-center sm:py-12 md:py-14">
-      <h2 className="mb-6 font-baloo text-lg font-normal leading-relaxed text-gray-700 sm:text-xl md:mb-8 md:text-2xl">
+    <section className="mx-auto max-w-3xl px-4 py-10 text-center sm:py-12 md:py-16">
+      <h2 className="mb-4 font-passion text-xl font-bold leading-snug text-gray-800 sm:text-2xl md:mb-6 md:text-3xl lg:text-4xl">
         {headlineText}
       </h2>
-      <h3 className="font-passion text-xl font-bold text-brand-indigo sm:text-2xl md:text-3xl lg:text-4xl">
+      <p className="font-baloo text-base text-gray-500 sm:text-lg md:text-xl">
         {subheadlineText}
-      </h3>
+      </p>
     </section>
   );
 }

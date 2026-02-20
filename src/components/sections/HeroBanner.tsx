@@ -1,18 +1,34 @@
-import { heroText } from "@/data/content";
+import { heroText, instructorData } from "@/data/content";
 
 export function HeroBanner() {
   return (
     <header
-      className="sparkle-header-bg flex min-h-[35vh] items-center justify-center bg-gradient-to-br from-brand-indigo via-brand-purple to-brand-magenta px-5 pt-16 pb-10 text-center sm:min-h-[40vh] sm:pt-20 sm:pb-12 md:min-h-[50vh] md:pt-28 md:pb-16"
+      className="sparkle-header-bg flex min-h-[45vh] items-center justify-center bg-gradient-to-br from-brand-indigo via-brand-purple to-brand-magenta px-5 pt-20 pb-12 text-center sm:min-h-[50vh] sm:pt-24 sm:pb-14 md:min-h-[60vh] md:pt-32 md:pb-20"
       id="inicio"
     >
-      <div className="mx-auto max-w-3xl">
-        <h1 className="relative z-10 font-passion text-2xl font-bold leading-tight text-white drop-shadow-lg sm:text-3xl md:text-5xl lg:text-6xl">
+      <div className="mx-auto max-w-4xl">
+        <p className="relative z-10 mb-4 inline-block rounded-full border border-white/20 bg-white/10 px-4 py-1.5 font-baloo text-xs font-medium tracking-wide text-white/90 backdrop-blur-sm sm:text-sm">
+          Método comprovado por Juliana &mdash; 10+ anos de experiência
+        </p>
+        <h1 className="relative z-10 font-passion text-3xl font-bold leading-tight text-white drop-shadow-lg sm:text-4xl md:text-5xl lg:text-6xl">
           {heroText}
         </h1>
-        <p className="relative z-10 mt-3 font-baloo text-sm text-white/80 sm:text-base md:text-xl">
-          Aprenda crochê do zero e transforme em renda
+        <p className="relative z-10 mx-auto mt-4 max-w-2xl font-baloo text-base text-white/80 sm:text-lg md:text-xl">
+          O método passo a passo com 10 anos de experiência comprovada
         </p>
+
+        <div className="relative z-10 mx-auto mt-8 flex max-w-md items-center justify-center gap-6 rounded-2xl border border-white/15 bg-white/10 px-6 py-4 backdrop-blur-sm sm:gap-8 sm:px-8 md:max-w-lg">
+          {instructorData.stats.map((stat, i) => (
+            <div key={i} className="text-center">
+              <p className="font-passion text-xl font-bold text-white sm:text-2xl md:text-3xl">
+                {stat.number}
+              </p>
+              <p className="font-baloo text-[10px] text-white/70 sm:text-xs">
+                {stat.label}
+              </p>
+            </div>
+          ))}
+        </div>
       </div>
     </header>
   );

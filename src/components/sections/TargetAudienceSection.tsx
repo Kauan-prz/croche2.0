@@ -21,7 +21,7 @@ export function TargetAudienceSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1 }}
-              className="rounded-2xl border-2 border-brand-purple/15 bg-white p-4 text-left shadow-sm transition-all hover:shadow-lg hover:-translate-y-1 sm:p-6 md:p-7"
+              className="rounded-2xl border border-gray-100 bg-white p-4 text-left shadow-sm transition-all hover:shadow-md hover:-translate-y-0.5 sm:p-6 md:p-7"
             >
               <span className="mb-2 block text-3xl">{icons[i]}</span>
               <h3 className="mb-1 font-baloo text-lg font-bold text-brand-purple">

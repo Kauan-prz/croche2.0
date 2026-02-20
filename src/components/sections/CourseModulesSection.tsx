@@ -21,7 +21,7 @@ export function CourseModulesSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1 }}
-              className="overflow-hidden rounded-2xl border-2 border-brand-purple/15 bg-white shadow-sm transition-shadow hover:shadow-md"
+              className="overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-sm transition-shadow hover:shadow-md"
             >
               <div className="flex items-center gap-3 border-b border-brand-purple/5 bg-gradient-to-r from-brand-purple/5 to-transparent px-5 py-4">
                 <span className="text-2xl">{moduleIcons[i]}</span>

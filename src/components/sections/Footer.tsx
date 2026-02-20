@@ -6,9 +6,10 @@ export function Footer() {
   return (
     <footer className="bg-gradient-to-br from-brand-indigo via-brand-purple to-brand-magenta px-4 py-10 pb-24 text-white sm:pb-10 md:py-12">
       <div className="mx-auto max-w-4xl text-center">
-        <p className="mb-2 font-passion text-xl font-bold">Crochê Pro</p>
+        <p className="mb-1 font-passion text-xl font-bold">Crochê Pro</p>
+        <p className="mb-1 font-baloo text-xs text-white/50">por Juliana</p>
         <p className="mb-4 font-baloo text-sm text-white/70">
-          Transforme seu hobby em um negócio lucrativo
+          O método que já formou +500 alunas em crochê profissional
         </p>
         <div className="mb-4 flex justify-center gap-6">
           <a

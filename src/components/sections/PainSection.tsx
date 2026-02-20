@@ -19,7 +19,7 @@ export function PainSection() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.15 }}
-              className="flex items-start gap-4 rounded-2xl border-2 border-brand-purple/15 bg-white p-5 text-left shadow-sm transition-shadow hover:shadow-md md:p-6"
+              className="flex items-start gap-4 rounded-2xl border border-gray-100 bg-white p-5 text-left shadow-sm transition-shadow hover:shadow-md md:p-6"
             >
               <span className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-brand-purple to-brand-magenta text-sm font-bold text-white shadow-sm">
                 {i + 1}

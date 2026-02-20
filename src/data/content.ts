@@ -7,7 +7,7 @@ export const pricing = {
   discountedPrice: "R$27,90",
   installment: "3x de R$9,96",
   discountPercent: 86,
-  heading: "Ultima Chance!",
+  heading: "Oferta Especial por Tempo Limitado",
   bonusTotal: "R$285,00",
 };
 
@@ -57,19 +57,19 @@ export const faqItems = [
 export const guaranteeText =
   "Valorizamos muito nossas alunas e sempre nos esforçamos ao máximo para oferecer o melhor. Por isso, não temos registros de pedidos de reembolso. No entanto, se em até 7 dias você não ficar satisfeita com o conteúdo ou se algo não atender às suas expectativas, garantimos a devolução total do valor pago. É só entrar em contato conosco pelo WhatsApp para solicitar o reembolso.";
 
-export const heroText = "A oferta Termina em Breve!";
+export const heroText = "+500 Alunas Já Transformaram Crochê em Renda Extra";
 
 export const headlineText =
-  "Faça do crochê um negócio lucrativo sem depender de ninguém e com baixo investimento!";
+  "Domine o crochê do zero à primeira venda com o método que já formou mais de 500 alunas";
 
-export const subheadlineText = "Conheça minha historia!";
+export const subheadlineText = "Assista ao vídeo e veja como funciona";
 
 export const ctaText = "QUERO COMEÇAR AGORA";
 export const ctaSubText = "E GARANTIR MEU ACESSO";
 
 export const bonusText = "Se inscrevendo hoje você receberá 3 bônus!";
 
-export const testimonialsTitle = "Veja o que nossas alunas dizem";
+export const testimonialsTitle = "Resultados Reais de Alunas Reais";
 
 export const bonuses = [
   {
@@ -168,11 +168,12 @@ export const courseModules = [
 ];
 
 export const instructorData = {
-  name: "Sua Instrutora",
-  bio: "Apaixonada por crochê há mais de 10 anos, transformei meu hobby em uma profissão lucrativa. Já ensinei centenas de alunas a criar peças incríveis e a gerar renda com artesanato. Minha missão é provar que qualquer pessoa pode aprender crochê e viver disso!",
+  name: "Juliana",
+  title: "Artesã & Instrutora de Crochê",
+  bio: "Sou a Juliana, e há mais de 10 anos vivo exclusivamente de crochê. Comecei do zero, sem experiência, e hoje já ensinei mais de 500 alunas a criar peças profissionais e gerar renda real com artesanato. Desenvolvi um método passo a passo que funciona mesmo para quem nunca pegou numa agulha.",
   stats: [
-    { number: "+500", label: "Alunas" },
-    { number: "+1000", label: "Receitas" },
+    { number: "+500", label: "Alunas formadas" },
+    { number: "+1000", label: "Receitas exclusivas" },
     { number: "10+", label: "Anos de experiência" },
   ],
 };
