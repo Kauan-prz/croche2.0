@@ -62,6 +62,9 @@ export const heroText = "+500 Alunas Já Transformaram Crochê em Renda Extra";
 export const headlineText =
   "Domine o crochê do zero à primeira venda com o método que já formou mais de 500 alunas";
 
+export const headlineOffer =
+  "Comprando hoje você ganha 3 bônus exclusivos gratuitamente!";
+
 export const subheadlineText = "Assista ao vídeo e veja como funciona";
 
 export const ctaText = "QUERO COMEÇAR AGORA";
