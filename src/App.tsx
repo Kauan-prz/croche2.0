@@ -50,12 +50,12 @@ function App() {
       {/* Instrutora */}
       <InstructorSection />
 
-      {/* Bônus + Preço */}
+      {/* Bônus + Prova social */}
       <BonusSection />
-      <PricingBox />
-
-      {/* Prova social + Confiança */}
       <TestimonialsSection />
+
+      {/* Preço + Confiança */}
+      <PricingBox />
       <GuaranteeSection />
 
       {/* FAQ + Final CTA */}

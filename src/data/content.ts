@@ -7,7 +7,7 @@ export const pricing = {
   discountedPrice: "R$27,90",
   installment: "3x de R$9,96",
   discountPercent: 86,
-  heading: "Comece sua transformação agora",
+  heading: "Tudo isso por menos do que um novelo de linha",
   bonusTotal: "R$285,00",
 };
 
@@ -58,22 +58,22 @@ export const guaranteeText =
   "Valorizamos muito nossas alunas e sempre nos esforçamos ao máximo para oferecer o melhor. Por isso, não temos registros de pedidos de reembolso. No entanto, se em até 7 dias você não ficar satisfeita com o conteúdo ou se algo não atender às suas expectativas, garantimos a devolução total do valor pago. É só entrar em contato conosco pelo WhatsApp para solicitar o reembolso.";
 
 export const heroText =
-  "Crie Peças Profissionais de Crochê e Venda Para Quem Quiser";
+  "Imagine Abrir Seu WhatsApp e Encontrar Pedidos de Clientes Todos os Dias";
 
 export const headlineText =
-  "Você vai sair do zero, dominar roupas, amigurumis e decoração — e ainda aprender a vender suas peças";
+  "Daqui a 30 dias, você vai criar peças que as pessoas param para elogiar — e perguntam onde comprar";
 
 export const headlineOffer =
-  "Acesso vitalício + 500 receitas + grupo VIP + guia de precificação";
+  "Hoje você leva: curso completo + 500 receitas + grupo VIP + guia de precificação";
 
-export const subheadlineText = "Assista ao vídeo e veja como funciona";
+export const subheadlineText = "Veja no vídeo o que você vai ser capaz de criar";
 
-export const ctaText = "QUERO CRIAR PEÇAS PROFISSIONAIS";
-export const ctaSubText = "Acesso imediato a todo o conteúdo";
+export const ctaText = "QUERO COMEÇAR MINHA TRANSFORMAÇÃO";
+export const ctaSubText = "Acesso imediato — comece a criar hoje mesmo";
 
-export const bonusText = "Você ainda leva 3 bônus para acelerar seus resultados";
+export const bonusText = "Além do curso, você ainda leva tudo isso de presente";
 
-export const testimonialsTitle = "Resultados Reais de Alunas Reais";
+export const testimonialsTitle = "Elas começaram do zero — veja onde estão agora";
 
 export const bonuses = [
   {
@@ -100,10 +100,17 @@ export const bonuses = [
 ];
 
 export const painPoints = [
-  "Enquanto você assiste vídeos soltos no YouTube, outras alunas já estão vendendo suas primeiras peças",
-  "Você tem vontade de criar, mas sem método, cada tentativa vira frustração e material desperdiçado",
-  "Suas amigas elogiam peças de crochê nas redes sociais — e você sabe que poderia ser você criando e vendendo",
-  "A diferença entre quem fatura com crochê e quem desiste é ter um passo a passo profissional",
+  "Você assiste vídeo atrás de vídeo no YouTube, mas na hora de criar uma peça completa, trava e não sabe por onde começar",
+  "Cada tentativa que dá errado é dinheiro jogado fora em linha e material — e a vontade de desistir só cresce",
+  "Você vê outras mulheres vendendo crochê no Instagram e sabe que suas peças poderiam ser tão boas quanto — se tivesse o método certo",
+  "Sem um passo a passo profissional, o crochê continua sendo só um hobby que consome tempo e nunca vira renda",
+];
+
+export const futurePacing = [
+  "Você abre o WhatsApp de manhã e já tem 3 mensagens de clientes querendo encomendar suas peças",
+  "Suas amigas pedem para você ensinar como faz — porque suas peças parecem compradas em loja",
+  "Você finalmente tem uma renda extra todo mês fazendo algo que ama, no seu tempo, de casa",
+  "Cada peça que você cria vira elogio, encomenda e indicação — o boca a boca trabalha por você",
 ];
 
 export const targetAudience = [

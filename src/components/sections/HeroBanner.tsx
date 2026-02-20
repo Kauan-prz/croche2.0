@@ -14,7 +14,7 @@ export function HeroBanner() {
           {heroText}
         </h1>
         <p className="relative z-10 mx-auto mt-4 max-w-2xl font-baloo text-base text-white/80 sm:text-lg md:text-xl">
-          Do zero ao profissional: roupas, amigurumis, decoração e como vender tudo isso
+          O mesmo método que já transformou +500 mulheres em crocheteiras profissionais
         </p>
 
         <div className="relative z-10 mx-auto mt-8 flex max-w-md items-center justify-center gap-6 rounded-2xl border border-white/15 bg-white/10 px-6 py-4 backdrop-blur-sm sm:gap-8 sm:px-8 md:max-w-lg">

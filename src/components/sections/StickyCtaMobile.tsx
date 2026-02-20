@@ -20,7 +20,7 @@ export function StickyCtaMobile() {
         rel="noopener noreferrer"
         className="block w-full rounded-2xl bg-gradient-to-r from-brand-purple to-brand-magenta py-3.5 text-center font-passion text-base font-bold text-white shadow-lg"
       >
-        QUERO COMEÇAR AGORA
+        QUERO MINHA TRANSFORMAÇÃO
       </a>
     </div>
   );
