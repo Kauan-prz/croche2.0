@@ -1,8 +1,6 @@
 import { motion } from "framer-motion";
 import { courseModules } from "@/data/content";
 
-const moduleIcons = ["\u{1F4DA}", "\u{1F457}", "\u{1F9F8}", "\u{1F3E0}", "\u{1F4BC}"];
-
 export function CourseModulesSection() {
   return (
     <section className="overflow-hidden bg-gray-50 px-4 py-14 sm:py-16 md:py-20" id="modulos">
@@ -24,7 +22,9 @@ export function CourseModulesSection() {
               className="overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-sm transition-shadow hover:shadow-md"
             >
               <div className="flex items-center gap-3 border-b border-brand-purple/5 bg-gradient-to-r from-brand-purple/5 to-transparent px-5 py-4">
-                <span className="text-2xl">{moduleIcons[i]}</span>
+                <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-brand-purple font-passion text-sm font-bold text-white">
+                  {i + 1}
+                </span>
                 <h3 className="font-baloo text-lg font-bold text-brand-purple">
                   {mod.title}
                 </h3>

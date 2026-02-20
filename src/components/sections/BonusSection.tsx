@@ -1,12 +1,6 @@
 import { motion } from "framer-motion";
 import { bonusText, bonuses } from "@/data/content";
 
-const iconMap: Record<string, string> = {
-  book: "\u{1F4D6}",
-  users: "\u{1F465}",
-  calculator: "\u{1F4B2}",
-};
-
 export function BonusSection() {
   return (
     <section className="px-4 py-14 sm:py-16 md:py-20">
@@ -28,8 +22,8 @@ export function BonusSection() {
               transition={{ delay: i * 0.15 }}
               className="rounded-2xl border border-brand-gold/20 bg-white p-4 text-center shadow-sm transition-all hover:shadow-md hover:-translate-y-0.5 sm:p-6"
             >
-              <span className="mb-3 block text-4xl">
-                {iconMap[bonus.icon]}
+              <span className="mb-3 flex mx-auto h-10 w-10 items-center justify-center rounded-full bg-brand-gold/10 font-passion text-lg font-bold text-brand-gold">
+                {i + 1}
               </span>
               <h3 className="mb-2 font-baloo text-base font-bold text-brand-purple">
                 {bonus.title}

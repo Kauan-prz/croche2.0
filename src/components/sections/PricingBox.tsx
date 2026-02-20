@@ -49,7 +49,7 @@ export function PricingBox() {
             rel="noopener noreferrer"
             className="block w-full rounded-2xl bg-gradient-to-r from-brand-purple to-brand-magenta py-4 font-passion text-lg font-bold text-white shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-[0_0_25px_rgba(126,97,204,0.5)]"
           >
-            QUERO COMEÇAR AGORA
+            GARANTIR MINHA VAGA POR R$27,90
           </a>
 
           <p className="font-baloo text-xs text-gray-400">

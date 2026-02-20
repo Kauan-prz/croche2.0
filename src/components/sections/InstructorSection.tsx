@@ -20,8 +20,8 @@ export function InstructorSection() {
           className="rounded-2xl border border-brand-purple/10 bg-white p-5 shadow-lg sm:p-6 md:p-8"
         >
           <div className="flex flex-col items-center gap-6 md:flex-row md:items-start">
-            <div className="flex h-24 w-24 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-brand-purple to-brand-magenta text-4xl text-white shadow-lg md:h-32 md:w-32 md:text-5xl">
-              {"\u{1F9F6}"}
+            <div className="flex h-24 w-24 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-brand-purple to-brand-magenta text-white shadow-lg md:h-32 md:w-32">
+              <span className="font-passion text-3xl font-bold md:text-4xl">J</span>
             </div>
             <div className="text-center md:text-left">
               <p className="mb-6 font-baloo text-base leading-relaxed text-gray-600 md:text-lg">

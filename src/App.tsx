@@ -6,7 +6,6 @@ import { Headline } from "@/components/sections/Headline";
 import { VideoSection } from "@/components/sections/VideoSection";
 import { CtaButton } from "@/components/sections/CtaButton";
 import { PainSection } from "@/components/sections/PainSection";
-import { TargetAudienceSection } from "@/components/sections/TargetAudienceSection";
 import { CourseModulesSection } from "@/components/sections/CourseModulesSection";
 import { InstructorSection } from "@/components/sections/InstructorSection";
 import { ProductCarousel } from "@/components/sections/ProductCarousel";
@@ -14,7 +13,6 @@ import { BonusSection } from "@/components/sections/BonusSection";
 import { PricingBox } from "@/components/sections/PricingBox";
 import { TestimonialsSection } from "@/components/sections/TestimonialsSection";
 import { GuaranteeSection } from "@/components/sections/GuaranteeSection";
-import { SecurityBadge } from "@/components/sections/SecurityBadge";
 import { FaqSection } from "@/components/sections/FaqSection";
 import { Footer } from "@/components/sections/Footer";
 import {
@@ -22,6 +20,8 @@ import {
   amigurumiImages,
   homeImages,
 } from "@/data/images";
+
+const allProductImages = [...clothingImages, ...amigurumiImages, ...homeImages];
 
 function App() {
   return (
@@ -36,28 +36,19 @@ function App() {
       <VideoSection />
       <CtaButton />
 
-      {/* Dor + Público-alvo */}
+      {/* Dor */}
       <PainSection />
-      <TargetAudienceSection />
 
       {/* O que vai aprender */}
       <CourseModulesSection />
       <ProductCarousel
-        title="Você vai aprender peças de roupas!"
-        images={clothingImages}
+        title="Veja o que você vai aprender a criar"
+        images={allProductImages}
       />
-      <ProductCarousel
-        title="Você vai aprender amigurumi!"
-        images={amigurumiImages}
-      />
-      <ProductCarousel
-        title="Você vai aprender peças para sua casa!"
-        images={homeImages}
-      />
+      <CtaButton />
 
       {/* Instrutora */}
       <InstructorSection />
-      <CtaButton />
 
       {/* Bônus + Preço */}
       <BonusSection />
@@ -66,7 +57,6 @@ function App() {
       {/* Prova social + Confiança */}
       <TestimonialsSection />
       <GuaranteeSection />
-      <SecurityBadge />
 
       {/* FAQ + Final CTA */}
       <FaqSection />

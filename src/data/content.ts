@@ -7,7 +7,7 @@ export const pricing = {
   discountedPrice: "R$27,90",
   installment: "3x de R$9,96",
   discountPercent: 86,
-  heading: "Oferta Especial por Tempo Limitado",
+  heading: "Só Hoje: 86% OFF + 3 Bônus Grátis",
   bonusTotal: "R$285,00",
 };
 
@@ -57,20 +57,21 @@ export const faqItems = [
 export const guaranteeText =
   "Valorizamos muito nossas alunas e sempre nos esforçamos ao máximo para oferecer o melhor. Por isso, não temos registros de pedidos de reembolso. No entanto, se em até 7 dias você não ficar satisfeita com o conteúdo ou se algo não atender às suas expectativas, garantimos a devolução total do valor pago. É só entrar em contato conosco pelo WhatsApp para solicitar o reembolso.";
 
-export const heroText = "+500 Alunas Já Transformaram Crochê em Renda Extra";
+export const heroText =
+  "Aprenda Crochê e Comece a Faturar em Semanas";
 
 export const headlineText =
-  "Domine o crochê do zero à primeira venda com o método que já formou mais de 500 alunas";
+  "De R$197,90 por apenas R$27,90 — 86% de desconto + 3 bônus grátis no valor de R$285";
 
 export const headlineOffer =
-  "Comprando hoje você ganha 3 bônus exclusivos gratuitamente!";
+  "Essa oferta pode sair do ar a qualquer momento";
 
 export const subheadlineText = "Assista ao vídeo e veja como funciona";
 
-export const ctaText = "QUERO COMEÇAR AGORA";
-export const ctaSubText = "E GARANTIR MEU ACESSO";
+export const ctaText = "GARANTIR MINHA VAGA POR R$27,90";
+export const ctaSubText = "Acesso imediato + 3 bônus grátis";
 
-export const bonusText = "Se inscrevendo hoje você receberá 3 bônus!";
+export const bonusText = "3 bônus grátis no valor de R$285 — só hoje";
 
 export const testimonialsTitle = "Resultados Reais de Alunas Reais";
 

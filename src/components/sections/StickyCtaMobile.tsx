@@ -20,7 +20,7 @@ export function StickyCtaMobile() {
         rel="noopener noreferrer"
         className="block w-full rounded-2xl bg-gradient-to-r from-brand-purple to-brand-magenta py-3.5 text-center font-passion text-base font-bold text-white shadow-lg"
       >
-        QUERO COMEÇAR AGORA - R$27,90
+        GARANTIR VAGA - R$27,90 + 3 BÔNUS
       </a>
     </div>
   );

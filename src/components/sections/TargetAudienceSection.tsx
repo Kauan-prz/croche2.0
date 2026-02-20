@@ -1,8 +1,6 @@
 import { motion } from "framer-motion";
 import { targetAudience } from "@/data/content";
 
-const icons = ["\u{1F9F6}", "\u{1F4B0}", "\u2728", "\u2764\uFE0F"];
-
 export function TargetAudienceSection() {
   return (
     <section className="overflow-hidden px-4 py-14 sm:py-16 md:py-20" id="para-quem">
@@ -23,7 +21,9 @@ export function TargetAudienceSection() {
               transition={{ delay: i * 0.1 }}
               className="rounded-2xl border border-gray-100 bg-white p-4 text-left shadow-sm transition-all hover:shadow-md hover:-translate-y-0.5 sm:p-6 md:p-7"
             >
-              <span className="mb-2 block text-3xl">{icons[i]}</span>
+              <span className="mb-2 flex h-8 w-8 items-center justify-center rounded-full bg-brand-purple/10 font-passion text-sm font-bold text-brand-purple">
+                {i + 1}
+              </span>
               <h3 className="mb-1 font-baloo text-lg font-bold text-brand-purple">
                 {item.title}
               </h3>
